@@ -1,24 +1,11 @@
-# README
+# README - ROR Test 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* Ruby version 2.6.3
 
-* Ruby version
+* Rails 6.0.3.4
 
-* System dependencies
+* Database POSTGRES
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Seed file to setup user and add default products using rake task
+* Manully run rake task rake default_products:generate_products
