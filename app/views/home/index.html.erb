@@ -1,0 +1,25 @@
+<div class="user-info"> 
+    <%=  current_user.email %>
+    <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
+</div>
+
+<h1>Products</h1>
+<% @products.each do |product| %>
+    <span  class="product">
+        <%= image_tag "#{product.image}", height: "300px", width: "300px" %>
+        <p>Name: <%= product.name %></p>
+        <p>Quantity: <%= product.quantity %></p>
+        <p>Price: <%= product.price %></p>
+    </span>
+<% end %>
+
+
+<style>
+    .user-info{
+        float: right;
+    }
+    .product{
+        display: inline-block;
+        width: 400px;
+    }
+</style>
