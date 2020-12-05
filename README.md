@@ -8,4 +8,5 @@
 * Database POSTGRES
 
 * Seed file to setup user and add default products using rake task
-* Manully run rake task rake default_products:generate_products
+
+* Manully run rake task  `rake default_products:generate_products`
